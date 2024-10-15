@@ -94,9 +94,10 @@ X-Powered-By: Express
 
 ```bash
 curl -i -X GET http://localhost/api/contacts
+```
 <img width="1278" alt="Screen Shot 2024-10-16 at 04 31 55" src="https://github.com/user-attachments/assets/34cfb2a5-79f5-49ac-a8b3-a21458e530fe">
 
-```
+
 
 3. Show/create the API commmand to delete the contacts (DELETE)
 
