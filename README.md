@@ -93,32 +93,11 @@ X-Powered-By: Express
 2 Get contacts API  (GET)
 
 ```bash
-http get http://localhost/api/contacts
-
-
-choiruzain@MacMarichoy-7 TestSystem % http get http://localhost/api/contacts
-HTTP/1.1 200 OK
-Access-Control-Allow-Origin: http://localhost:3000
-Connection: keep-alive
-Content-Length: 104
-Content-Type: application/json; charset=utf-8
-Date: Thu, 08 Aug 2024 21:04:58 GMT
-ETag: W/"68-V+4KuL2xahYt8YAkKG6rKdR7wHg"
-Server: nginx/1.25.1
-Vary: Origin
-X-Powered-By: Express
-
-[
-{
-"createdAt": "2024-08-08T21:01:53.017Z",
-"id": 1,
-"name": "Choiru",
-"updatedAt": "2024-08-08T21:01:53.017Z"
-}
-]
-
+curl -i -X GET http://localhost/api/contacts
+<img width="1278" alt="Screen Shot 2024-10-16 at 04 31 55" src="https://github.com/user-attachments/assets/34cfb2a5-79f5-49ac-a8b3-a21458e530fe">
 
 ```
+
 3. Show/create the API commmand to delete the contacts (DELETE)
 
 ```bash
